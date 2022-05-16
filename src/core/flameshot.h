@@ -18,6 +18,13 @@ class UploadHistory;
 class QHotkey;
 #endif
 
+// tag(wangwenxi): 这个是主类
+
+// Todo(wangwenxi): 加上插件功能
+// Todo(wangwenxi): 加上按键映射
+// Todo(wangwenxi): 百分百切换中英文
+// Todo(wangwenxi): 做一个可以类似quicker的启动应用的东西吧
+
 class Flameshot : public QObject
 {
     Q_OBJECT

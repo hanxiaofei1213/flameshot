@@ -12,6 +12,7 @@ class QFileSystemWatcher;
 class VisualsEditor;
 class QWidget;
 
+// tag(wangwenxi): ÉèÖÃµÄ´°¿Ú
 class ConfigWindow : public QWidget
 {
     Q_OBJECT

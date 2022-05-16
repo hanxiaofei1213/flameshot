@@ -4,6 +4,7 @@
 
 class QAction;
 
+// tag(wangwenxi): ’‚∏ˆ «Õ–≈Ã
 class TrayIcon : public QSystemTrayIcon
 {
     Q_OBJECT

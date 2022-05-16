@@ -13,6 +13,7 @@ class SetShortcutDialog;
 class QTableWidget;
 class QVBoxLayout;
 
+// tag(wangwenxi): 这个类是那个设置里面设置快捷键的
 class ShortcutsWidget : public QWidget
 {
     Q_OBJECT
