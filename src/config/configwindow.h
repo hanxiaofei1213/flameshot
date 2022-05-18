@@ -40,5 +40,7 @@ private:
     VisualsEditor* m_visuals;
     QWidget* m_visualsTab;
 
+    // Todo(wangwenxi): 这里也用一个widget包住就可以了
+
     void initErrorIndicator(QWidget* tab, QWidget* widget);
 };

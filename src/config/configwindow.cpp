@@ -25,11 +25,15 @@
 #include <QVBoxLayout>
 
 // ConfigWindow contains the menus where you can configure the application
+namespace {
+    const int CONFIG_WIDOW_WIDTH = 600;
+}
 
 ConfigWindow::ConfigWindow(QWidget* parent)
   : QWidget(parent)
 {
     // We wrap QTabWidget in a QWidget because of a Qt bug
+    setFixedWidth(CONFIG_WIDOW_WIDTH);
     auto* layout = new QVBoxLayout(this);
     m_tabWidget = new QTabWidget(this);
     m_tabWidget->tabBar()->setUsesScrollButtons(false);

@@ -21,9 +21,11 @@ class QHotkey;
 // tag(wangwenxi): 这个是主类
 
 // Todo(wangwenxi): 加上插件功能
-// Todo(wangwenxi): 加上按键映射
 // Todo(wangwenxi): 百分百切换中英文
 // Todo(wangwenxi): 做一个可以类似quicker的启动应用的东西吧
+// Todo(wangwenxi): 复习英文单词的应该也能放上去，调用系统的消息，很简单的，结合数据库之类的？
+
+// Todo(wangwenxi): 加上按键映射
 
 class Flameshot : public QObject
 {
